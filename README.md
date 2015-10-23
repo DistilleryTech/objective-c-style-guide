@@ -1,6 +1,6 @@
-# NYTimes Objective-C Style Guide
+# WeezLabs Objective-C Style Guide
 
-This style guide outlines the coding conventions of the iOS teams at The New York Times. We welcome your feedback in [issues](https://github.com/NYTimes/objetive-c-style-guide/issues), [pull requests](https://github.com/NYTimes/objetive-c-style-guide/pulls) and [tweets](https://twitter.com/nytimesmobile). Also, [we’re hiring](http://jobs.nytco.com/job/New-York-iOS-Developer-Job-NY-10001/73366300/).
+This style guide outlines the coding conventions of the iOS teams at WeezLabs. We welcome your feedback in [issues](https://github.com/WeezLabs/objective-c-style-guide/issues) and [pull requests](https://github.com/WeezLabs/objective-c-style-guide/pulls).
 
 Thanks to all of [our contributors](https://github.com/NYTimes/objective-c-style-guide/contributors).
 
@@ -40,6 +40,7 @@ Here are some of the documents from Apple that informed the style guide. If some
 * [Protocols](#protocols)
 * [Nullability and Generics Annotations](#nullability-and-generics-annotations)
 * [Xcode Project](#xcode-project)
+* [Credits](#credits)
 
 ## Dot Notation Syntax
 
@@ -566,6 +567,10 @@ Nullability and lightweight generic annotations _should_ be added to internal an
 The physical files should be kept in sync with the Xcode project files in order to avoid file sprawl. Any Xcode groups created should be reflected by folders in the filesystem. Code should be grouped not only by type, but also by feature for greater clarity.
 
 When possible, always turn on “Treat Warnings as Errors” in the target’s Build Settings and enable as many [additional warnings](http://boredzo.org/blog/archives/2009-11-07/warnings) as possible. If you need to ignore a specific warning, use [Clang’s pragma feature](http://clang.llvm.org/docs/UsersManual.html#controlling-diagnostics-via-pragmas).
+
+# Credits
+
+Big thanks to NYTimes and their [Objective-C Style Guide](https://github.com/NYTimes/objective-c-style-guide/) which was used as a base for this style guide.
 
 # Other Objective-C Style Guides
 
